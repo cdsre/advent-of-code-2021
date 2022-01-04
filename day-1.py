@@ -37,7 +37,7 @@ def get_increase_for_n_window(numbers: List[int], window=1) -> int:
 
 
 if __name__ == "__main__":
-    with open("numbers_input_data.txt") as numbers_data:
+    with open("day-1-depth-input.txt") as numbers_data:
         numbers = [int(num) for num in numbers_data.readlines()]
     print(get_total_increases(numbers))
     print(get_sliding_window_increases(numbers))
